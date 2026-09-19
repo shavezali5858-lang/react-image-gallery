@@ -1,16 +1,39 @@
-# React + Vite
+# Basic Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React image gallery project built to practice API fetching, state management, and Previous/Next navigation with a counter.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🖼️ Fetch images from an API
+- ⬅️ Previous image button
+- ➡️ Next image button
+- 🔢 Image counter
+- ⚛️ React state management
+- 📱 Simple responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- CSS / Tailwind CSS
+- REST API
 
-## Expanding the ESLint configuration
+## What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fetching data from an API
+- Managing API data using React state
+- Using `useEffect` for API calls
+- Implementing Previous/Next functionality
+- Managing image indexes with state
+
+## Project Preview
+
+A basic gallery where images are loaded from an API and users can navigate between them using Previous and Next buttons.
+
+## Future Improvements
+
+- Add image search
+- Add loading state
+- Add error handling
+- Add image categories
+- Add automatic slideshow
